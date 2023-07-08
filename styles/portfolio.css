@@ -31,6 +31,7 @@ button {
 
 
 .btn-primary {
+    margin: 5px;
     border-radius: 5px;
     background-color: #FD6E0A;
     border: 0;
@@ -41,6 +42,7 @@ button {
 }
 
 .btn-secondary {
+    margin: 5px;
     border-radius: 5px;
     background-color: #FFF8F3;
     border: 1px solid #FD6E0A;
@@ -55,7 +57,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 120px;
+    padding: 50px 120px 0 120px;
 
 }
 
@@ -83,14 +85,14 @@ nav a {
 /* header styles */
 .header {
     background-color: #FFF8F3;
-    background-image: url("../images/header_bg.png");
+    background-image: url("../images/header_bg.png"), url("../images/developer.png");
     background-repeat: no-repeat;
-    background-position: bottom right;
-    background-size: 650px;
+    background-position: bottom right, center left;
+    background-size: 650px, 75px;
 }
 
 .banner {
-    padding: 75px 30px 0px 120px;
+    padding: 25px 30px 0px 120px;
     display: flex;
     align-items: center;
     justify-content: space-between;
