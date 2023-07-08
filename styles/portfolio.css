@@ -69,12 +69,12 @@ nav a {
     background-color: #FFF8F3;
     background-image: url("../images/header_bg.png");
     background-repeat: no-repeat;
-    background-position: bottom right, center left;
+    background-position: bottom right;
     background-size: 650px;
 }
 
 .banner {
-    padding: 30px 30px 0px 120px;
+    padding: 75px 30px 0px 120px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -115,9 +115,12 @@ nav a {
 
 main {
     max-width: 1140px;
-    margin: auto;
+    margin: 0 auto;
 }
 
+main section{
+    margin-top: 130px;
+}
 /* about me styles */
 .about {
     padding: 100px;
@@ -158,15 +161,18 @@ main {
 #i-do-desc {
     padding: 30px 100px;
 }
+.what-i-do-container{
+
+}
 
 .skills-container {
     display: flex;
     justify-content: space-around;
+    gap: 25px;
 }
 
 .skill {
-    width: 200px;
-    background-color: #ffffff;
+       background-color: #ffffff;
     border-radius: 5px;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
     padding: 30px;
